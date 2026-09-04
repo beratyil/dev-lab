@@ -1,0 +1,28 @@
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# C++ build output
+*.o
+*.obj
+*.out
+*.exe
+*.so
+*.a
+build/
+cpp/test_vector
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Datasets (torchvision indirir: download=True)
+python/data/
+
+# OS
+.DS_Store
