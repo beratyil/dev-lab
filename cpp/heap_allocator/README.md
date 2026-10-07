@@ -180,7 +180,7 @@ Hedef   Heap      Gercek  | allocOrt     p50      p99       max | freeOrt | Basa
 
 **TLSF doluluktan bağımsız.**
 
-- Allocate ortalaması %10'dan %99.5'e kadar ~13–17 ns, p50 ~8 ns, p99 < 100 ns.
+- Allocate ortalaması %10'dan %99.5'e kadar ~13–17 ns, p50 ~8–12 ns, p99 ~50–120 ns.
 - Her allocate tam **1** arama adımı: bitmap ile doğru liste doğrudan bulunuyor.
 - Parçalanmaya da daha dayanıklı: %99 hedefe gerçekten ulaşabiliyor; başarısızlık
   oranı %99 dolulukta bile ~%3.5. %99.5'te ise kalan boşluk büyük istekler için
